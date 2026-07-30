@@ -1,0 +1,9 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+
+# Temp execution files
+tempCodeRunnerFile.py
+
+# Checkpoints
+.ipynb_checkpoints/
