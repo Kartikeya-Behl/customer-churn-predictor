@@ -35,30 +35,34 @@ Customer acquisition costs significantly outpace retention costs. This project i
 
 ## 📁 Repository Structure
 
-```text
+`text`
 .
-├── main.ipynb                  # Exploratory Data Analysis, Model Training & Validation
-├── main.py                     # Production-style batch inference pipeline
-├── churn_preprocessor.joblib   # Fitted Feature Transformer
-├── churn_xgb_model.joblib      # Trained XGBoost Model
-├── model_metadata.joblib       # Decision Threshold Metadata
-├── E-Commerce_Churn_Data.csv   # Dataset
-├── requirements.txt            # Environment Dependencies
-└── README.md                   # Project Documentation
+├── main.ipynb # Exploratory Data Analysis, Model Training & Validation
+├── main.py # Production-style batch inference pipeline
+├── churn_preprocessor.joblib # Fitted Feature Transformer
+├── churn_xgb_model.joblib # Trained XGBoost Model
+├── model_metadata.joblib # Decision Threshold Metadata
+├── E-Commerce_Churn_Data.csv # Dataset
+├── requirements.txt # Environment Dependencies
+└── README.md # Project Documentation
+
+---
 
 ## Quickstart & Usage:
 
 ### 1. Installation
+
 Clone the repository and install required dependencies:
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 cd YOUR_REPOSITORY_NAME
 pip install -r requirements.txt
 
 ### 2. Run Batch Inference
+
 Execute the inference script to make predictions on sample customer data using the serialized pipeline artifacts:
 python main.py
 
 ### 3. Notebook Workflow
+
 To inspect exploratory data analysis, hyperparameter tuning grids, and performance curves, open main.ipynb:
 jupyter notebook main.ipynb
-```
