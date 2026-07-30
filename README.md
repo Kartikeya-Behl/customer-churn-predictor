@@ -35,7 +35,7 @@ Customer acquisition costs significantly outpace retention costs. This project i
 
 ## 📁 Repository Structure
 
-`text`
+```
 .
 ├── main.ipynb # Exploratory Data Analysis, Model Training & Validation
 ├── main.py # Production-style batch inference pipeline
@@ -45,8 +45,7 @@ Customer acquisition costs significantly outpace retention costs. This project i
 ├── E-Commerce_Churn_Data.csv # Dataset
 ├── requirements.txt # Environment Dependencies
 └── README.md # Project Documentation
-
----
+```
 
 ## Quickstart & Usage:
 
